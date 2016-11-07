@@ -1,0 +1,12 @@
+[
+    {
+        "Id": 1,
+        "title": "Mooi & Gezond",
+        "url": "/products"
+    },
+    {
+        "Id": 2,
+        "title": "Luxe cosmetica",
+        "url": "/products"
+    }
+]

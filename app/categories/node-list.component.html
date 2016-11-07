@@ -1,0 +1,26 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+    <div class='panel-body'>
+        <div class='has-error' *ngIf='errorMessage'>{{errorMessage}}</div>
+        <div class='table-responsive'>
+            <table class='table'
+                   *ngIf='nodes && nodes.length'>
+                <thead>
+                    <tr>
+                        <th>Categories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let node of nodes'>
+                        <td><a href=" {{node.Items}}">
+                            {{node.title}}
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
